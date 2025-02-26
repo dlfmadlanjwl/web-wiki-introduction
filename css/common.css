@@ -1,1 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR&display=swap");
+
+
+.comment-writing-container fieldset{
+    display: flex;
+    height: 45px;
+}
+
+.comment-writing-container{
+    margin: 23px 0px;
+}
+
+.comment-writing-container div{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    border: solid 0.5px gainsboro;
+    box-sizing: border-box;
+}
+
+.comment-writing-container input{
+    border: none;
+    width: 550px;
+    outline:none;
+    box-shadow:none;
+}
+
+input::placeholder {
+    color: #abb4bd;
+}
+
+
+.comment-writing-container img{
+    margin: 5px 10px 5px 10px;
+    height: 100%px;
+}
+
+
+.comment-writing-container fieldset button{
+    width: 10%;
+    height: 100%;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#cancel-button{
+    background-color: rgb(216 216 216);
+}
+
+#register-button{
+    background-color: rgb(216 249 246);
+}
+
+.comment-item{
+    padding: 13px 18px;
+    border: solid 0.5px gainsboro;
+    margin-bottom: 15px;
+}
+
+.comment-author{
+    display: flex;
+}
+
+.comment-author img{
+    width: 40px;
+    height: 40px;
+}
+
+.comment-author span{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 1000;
+}
+
+.comment-content{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.gallery{
+    width: 95%;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 동일한 열 */
+}
+
+.gallery img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#section3 article{
+    margin-bottom: 30px;
+}
+
+#section3 hr {
+    border: 0.5px solid #efefef;
+    width: 100%;
+    margin-bottom: 30px;
+  }
